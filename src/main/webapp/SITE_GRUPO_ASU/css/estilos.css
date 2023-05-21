@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: rgb(255, 255, 255, 0.852);
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 10px; /* Añade un espacio entre los elementos */
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+section {
+	background-color: #F2F6F6;
+	display: flex;
+	margin: auto;
+	margin-top: 155px;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 0;
+}
+
+footer {
+	background-color: #F2F6F6;
+}
+
+table {
+	margin: 0 auto;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+h2 {
+	text-align: center;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+
+.list-style {
+	list-style: decimal;
+}
+
+.letra-grande {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.video-ts {
+	width: 100%;
+	height: auto;
+}
+
+.imagen-redonda {
+	border-radius: 30px;
+	padding: 15px;
+	height: 250px;
+	width: 500px;
+}
+
+/*----------------------------------------------------------------------------*/
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+	align-items: center;
+}
+
+.centrar-imagen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80%; /* Ajusta la altura según tus necesidades */
+}
+
+.linea-color {
+	width: 100%;
+	background-color: skyblue;
+	height: 10px;
+	border: none;
+}
+
+.grid-item img {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+}
+
+.grid-item h2 {
+	margin-top: 0;
+}
+
+.div_inicio_sesion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.h2_inicio_sesion {
+	text-align: center;
+}
+
+.form_inicio_sesion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.label_inicio_sesion {
+	display: block;
+	text-align: center;
+}
+
+.button_inicio_sesion {
+	margin-top: 10px;
+}
