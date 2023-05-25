@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.852);
+}
+
+p {
+	font-size: 2rem;
+	text-align: start;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+section {
+	background-color: #F2F6F6;
+	display: flex;
+	margin: auto;
+	margin-top: 155px;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border: none;
+}
+
+footer {
+	background-color: #F2F6F6;
+	text-align: center;
+	padding-top: 20px;
+}
+
+table {
+	margin: 0 auto;
+}
+
+body {
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+h2 {
+	text-align: center;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: left;
+}
+
+.list-style {
+	list-style: decimal;
+}
+
+.letra-grande {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.video-ts {
+	width: 100%;
+	height: auto;
+}
+
+.imagen-redonda {
+	border-radius: 30px;
+	padding: 15px;
+	height: 250px;
+	width: 500px;
+}
+
+.fromularios_users {
+	display: grid;
+	gap: 10px;
+	justify-content: center;
+}
+
+.centrar-imagen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80%;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 10px;
+	align-items: center;
+	justify-items: center;
+}
+
+.linea-color {
+	width: 100%;
+	background-color: skyblue;
+	height: 10px;
+	border: none;
+}
+
+.grid-item img {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+}
+
+.grid-item h2 {
+	font-size: 2.5rem;
+	margin-top: 0;
+}
+
+.grid-item p {
+	font-size: 2rem;
+	text-align: start;
+}
+
+.grid-item ul {
+	font-size: 2rem;
+	text-align: start;
+}
+
+.div_inicio_sesion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.div_inicio_sesion h2 {
+	text-align: center;
+	font-size: 3rem;
+}
+
+.div_inicio_sesion form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.div_inicio_sesion label {
+	display: block;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.div_inicio_sesion button {
+	margin-top: 10px;
+	font-size: 1.5rem;
+}
+
+.div_inicio_sesion input {
+	font-size: 1.5rem;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+#animacion {
+	font-size: 4rem;
+	text-align: center;
+	animation-name: pulse;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+.footer-icons {
+	display: inline-block;
+}
+
+.icon {
+	width: 24px;
+	height: 24px;
+	margin: 0 10px;
+}
